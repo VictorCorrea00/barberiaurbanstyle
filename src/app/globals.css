@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#050505] text-[#F8F8F8] selection:bg-[#C5A059] selection:text-[#050505] antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+  
+  p {
+    @apply font-sans leading-relaxed text-gray-400;
+  }
+}
+
+@layer components {
+  .gold-line {
+    @apply border-l border-[#C5A059] pl-6;
+  }
+
+  .gold-divider {
+    @apply w-full h-[1px] bg-[#262626] my-8;
+  }
+}
