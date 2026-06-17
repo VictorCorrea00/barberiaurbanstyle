@@ -37,7 +37,7 @@ export default function Testimonials() {
               className="p-8 border border-[#262626] hover:border-[#C5A059] transition-colors duration-500"
             >
               <div className="text-[#C5A059] mb-6 font-serif">★★★★★</div>
-              <p className="text-[#A3A3A3] italic mb-8 leading-relaxed font-sans font-light">"{item.text}"</p>
+              <p className="text-[#A3A3A3] italic mb-8 leading-relaxed font-sans font-light">&quot;{item.text}&quot;</p>
               <p className="font-sans font-bold uppercase tracking-widest text-sm text-[#F8F8F8]">— {item.name}</p>
             </motion.div>
           ))}
